@@ -45,3 +45,18 @@ The following packages were added:
   com.unity.timeline@1.5.4
   com.unity.ugui@1.0.0
   com.unity.visualscripting@1.5.2
+
+=== Tue Apr 20 22:02:52 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@3.6.1
+  com.unity.analytics@3.5.3
+  com.unity.ext.nunit@1.0.6
+  com.unity.multiplayer-hlapi@1.0.6
+  com.unity.purchasing@2.2.2
+  com.unity.xr.legacyinputhelpers@2.1.7
