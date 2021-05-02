@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public float jump = 8f;
     Animator anim;
     CharacterController controller;
-    public float rotSpeed = 80f;
+    
+    public float rotSpeed = 50f;
     float rot = 0f;
 
     float horizontal;
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (controller.isGrounded)
         {
-            moveDirection = new Vector3(horizontal, 0.0f, vertical);
+            moveDirection = new Vector3(0, 0.0f, vertical);
             moveDirection *= speed;
             moveDirection = transform.TransformDirection(moveDirection);
 

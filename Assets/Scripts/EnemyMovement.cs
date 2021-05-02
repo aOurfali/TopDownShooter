@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.AI;
 using UnityEngine;
+
 
 public class EnemyMovement : MonoBehaviour
 {
@@ -10,14 +12,14 @@ public class EnemyMovement : MonoBehaviour
 
     private PlayerMovement Player;
     private Animator animator;
-    private UnityEngine.AI.NavMeshAgent agent;
+    private NavMeshAgent agent;
     private bool startMove = false;
 
     private void Awake()
     {
         Player = FindObjectOfType<PlayerMovement>();
         animator = GetComponent<Animator>();
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     private IEnumerator Start()
@@ -40,6 +42,14 @@ public class EnemyMovement : MonoBehaviour
         if ( Vector3.Distance(transform.position, Player.transform.position) >= stoppingDistance)
         {
             agent.SetDestination(Player.transform.position);
+            animator.SetFloat("Move", currentSpeed / maxSpeed );
+            currentSpeed += Time.deltaTime;
+            currentSpeed = Mathf.Clamp(currentSpeed, 0, 5);
+        }
+        else
+        {
+            agent.SetDestination(transform.position);
+            animator.SetFloat("Move", 0);
         }
     }
 
