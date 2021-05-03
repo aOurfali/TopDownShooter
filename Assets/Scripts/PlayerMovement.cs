@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float jump = 8f;
     Animator anim;
     CharacterController controller;
-    
+
     public float rotSpeed = 50f;
     float rot = 0f;
 
@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.lockState = CursorLockMode.Locked;
 
     }
 
@@ -67,46 +67,46 @@ public class PlayerMovement : MonoBehaviour
             }
             if (Input.GetKey(KeyCode.S))
             {
-                    anim.SetBool("IsWalkingBackward", true);
+                anim.SetBool("IsWalkingBackward", true);
             }
-                else
-                {
-                    anim.SetBool("IsWalkingBackward", false);
-                }
-
-                /*
-                if (Input.GetKey(KeyCode.A))
-                {
-                    anim.SetBool("IsWalkingLeft", true);
-                }
-                else
-                {
-                    anim.SetBool("IsWalkingLeft", false);
-                }
-                if (Input.GetKey(KeyCode.D))
-                {
-                    anim.SetBool("IsWalkingRight", true);
-                }
-                else
-                {
-                    anim.SetBool("IsWalkingRight", false);
-                }
-                if (Input.GetButton("Fire1"))
-                {
-                    anim.SetBool("Shoot", true);
-                }
-                else
-                {
-                    anim.SetBool("Shoot", false);
-                }*/
-                rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
-                transform.eulerAngles = new Vector3(0, rot, 0);
-
+            else
+            {
+                anim.SetBool("IsWalkingBackward", false);
             }
-            moveDirection.y -= gravity * Time.deltaTime;
-            controller.Move(moveDirection * Time.deltaTime);
 
-        
+            /*
+            if (Input.GetKey(KeyCode.A))
+            {
+                anim.SetBool("IsWalkingLeft", true);
+            }
+            else
+            {
+                anim.SetBool("IsWalkingLeft", false);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                anim.SetBool("IsWalkingRight", true);
+            }
+            else
+            {
+                anim.SetBool("IsWalkingRight", false);
+            }
+            if (Input.GetButton("Fire1"))
+            {
+                anim.SetBool("Shoot", true);
+            }
+            else
+            {
+                anim.SetBool("Shoot", false);
+            }*/
+            rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+            transform.eulerAngles = new Vector3(0, rot, 0);
+
+        }
+        moveDirection.y -= gravity * Time.deltaTime;
+        controller.Move(moveDirection * Time.deltaTime);
+
+
     }
-    
+
 }
