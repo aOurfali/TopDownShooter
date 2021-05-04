@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 02b847d754a55ae46bedaac58d0e0f8f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02b847d754a55ae46bedaac58d0e0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1361,7 +1361,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a09d56136736ee74d987b31b4edc9429, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a09d56136736ee74d987b31b4edc9429, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1599,8 +1599,8 @@ Transform:
   m_LocalPosition: {x: -0.03, y: 1.97, z: -3.92}
   m_LocalScale: {x: 1, y: 1, z: 0.64171875}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1557834812}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 17.936, y: 0, z: 0}
 --- !u!81 &1699682402
 AudioListener:
@@ -1665,6 +1665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c404041a2a35f346a34105a4d211f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedH: 2
+  speedV: 2
 --- !u!4 &1700297568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2151611439949242539, guid: a09d56136736ee74d987b31b4edc9429, type: 3}
