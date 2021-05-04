@@ -78,13 +78,18 @@
       ]
     },
     {
-      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.ChainIKConstraintJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.BlendConstraintJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "ModuleHash": "0c8374515c43a12357ab1decf842b745",
       "LinkName": "D17F1E41F0981F8B",
 =======
       "ModuleHash": "fffbac88c298c8d084073fb51597f3b3",
+      "LinkName": "EEB605D5BF4115FD",
+>>>>>>> Stashed changes
+=======
+      "ModuleHash": "d808bf90321f528d3aa3e50af0994a1f",
       "LinkName": "EEB605D5BF4115FD",
 >>>>>>> Stashed changes
       "AssemblyDependencyIndices": [
@@ -97,13 +102,18 @@
       ]
     },
     {
-      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.BlendConstraintJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "FullName": "System.Void UnityEngine.Animations.ProcessAnimationJobStruct`1<UnityEngine.Animations.Rigging.ChainIKConstraintJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "ModuleHash": "d808bf90321f528d3aa3e50af0994a1f",
       "LinkName": "EEB605D5BF4115FD",
 =======
       "ModuleHash": "98e12a4b6230f7c662cda1b36348d990",
+      "LinkName": "D17F1E41F0981F8B",
+>>>>>>> Stashed changes
+=======
+      "ModuleHash": "0c8374515c43a12357ab1decf842b745",
       "LinkName": "D17F1E41F0981F8B",
 >>>>>>> Stashed changes
       "AssemblyDependencyIndices": [
