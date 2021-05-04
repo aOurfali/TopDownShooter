@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    
-  /*  public float speedH = 2f;
+    /*
+    public float speedH = 2f;
     public float speedV = 2f;
 
     private float yaw = 0f;
@@ -18,7 +18,8 @@ public class CameraMove : MonoBehaviour
         pitch -= speedV * Input.GetAxis("Mouse Y");
         transform.eulerAngles = new Vector3(pitch, yaw, 0f);
         
-    }*/
+    }
+    */
     
     
 }
