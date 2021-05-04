@@ -15,11 +15,11 @@ C:/Users/AbdullahOurfali/Documents/GitHub/TopDownShooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50108
+50327
 Successfully changed project path to: C:/Users/AbdullahOurfali/Documents/GitHub/TopDownShooter
 C:/Users/AbdullahOurfali/Documents/GitHub/TopDownShooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 83.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.4f1 (4cd64a618c1b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/2021.1.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,95 +35,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Hub/2021.1.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Hub/2021.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity Hub/2021.1.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Hub/2021.1.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001437 seconds.
+Registered in 0.002228 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 86.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
+- Completed reload, in  1.029 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002896 seconds.
+Registered in 0.002921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  0.714 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 124.1 MB.
 System memory in use after: 124.3 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3661.
-Total: 1.992900 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.116300 ms MarkObjects: 1.535500 ms  DeleteObjects: 0.081800 ms)
+Total: 2.120500 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.153700 ms MarkObjects: 1.612900 ms  DeleteObjects: 0.083000 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(42cf773c2293b954793c898e75613c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(42cf773c2293b954793c898e75613c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90db723e2e8791cc72a314ab08adf284') in 0.017049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.243672 seconds.
   path: Assets/Scripts/CameraMove.cs
   artifactKey: Guid(8c404041a2a35f346a34105a4d211f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraMove.cs using Guid(8c404041a2a35f346a34105a4d211f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaf8665cd4df8fb8a1ddad4d1f976df') in 0.014237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.564525 seconds.
-  path: Assets/Textures/Soldier_Body_diffuse.png
-  artifactKey: Guid(325e79f40aadb534db5d0c54b1702622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_Body_diffuse.png using Guid(325e79f40aadb534db5d0c54b1702622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9713755f972f3f23e84bb5eb250ce2') in 0.054483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Textures/Survivor_normal.png
-  artifactKey: Guid(91bff70ce02e1ad448e821a0fa49374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Survivor_normal.png using Guid(91bff70ce02e1ad448e821a0fa49374d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7661db480e3ba35916adf91098927bd8') in 0.040704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Textures/Soldier_head_normal.png
-  artifactKey: Guid(7e1f473820d81754bafc2e39ce831f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_head_normal.png using Guid(7e1f473820d81754bafc2e39ce831f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e1c110ee13a6d7aaee4c380b6f219b') in 0.016889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Textures/Soldier_Body_normal.png
-  artifactKey: Guid(ca1d3a204a2c7c64dbcce88804021b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_Body_normal.png using Guid(ca1d3a204a2c7c64dbcce88804021b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e5853c1181fb9c224b0929d15a58a5') in 0.019435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Textures/Soldier_Body_specular.png
-  artifactKey: Guid(3380f19d8493f594f94c660b5785e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_Body_specular.png using Guid(3380f19d8493f594f94c660b5785e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb564b32d03a985da3458c22fa7555b') in 0.019798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Textures/Survivor_diffuse.png
-  artifactKey: Guid(df28f7a6197c9c445b9aadabdde6b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Survivor_diffuse.png using Guid(df28f7a6197c9c445b9aadabdde6b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5992a45eec3d9a50cc806d1699195dfc') in 0.015406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Textures/Soldier_head_diffuse.png
-  artifactKey: Guid(995c0b46a1f409e4da0957c60f4d9376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_head_diffuse.png using Guid(995c0b46a1f409e4da0957c60f4d9376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3958dc57e106803a7ad405f0db9c47') in 0.020476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Textures/Survivor_specular.png
-  artifactKey: Guid(1bf53678fa42ec14cbc23965175e87f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Survivor_specular.png using Guid(1bf53678fa42ec14cbc23965175e87f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243627ae85573584dcff59cac06c171d') in 0.018868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Textures/Soldier_head_specular.png
-  artifactKey: Guid(293cdb4b731af78478bd137deb550fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Soldier_head_specular.png using Guid(293cdb4b731af78478bd137deb550fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47313cb2837b50240282552e4f7414ef') in 0.017005 seconds 
+Start importing Assets/Scripts/CameraMove.cs using Guid(8c404041a2a35f346a34105a4d211f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a93795881a5f8a54864ddc1bd25d3c0') in 0.002310 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
