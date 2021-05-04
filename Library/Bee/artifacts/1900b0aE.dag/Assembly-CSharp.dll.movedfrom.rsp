@@ -1,3 +1,9 @@
+Library\Bee\artifacts\movedfrom\Unity.Animation.Rigging.Editor.ref.dll_15120923716135186232.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Animation.Rigging.ref.dll_11667054969188453385.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Burst.Editor.ref.dll_16355153736048737481.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Burst.ref.dll_17513929544495339880.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Mathematics.Editor.ref.dll_11106105192880348995.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Mathematics.ref.dll_16784875247615350606.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Rider.Editor.ref.dll_11193012430168537007.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.TextMeshPro.Editor.ref.dll_1557689244747631494.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.TextMeshPro.ref.dll_9557809654341403355.movedfrom
@@ -90,3 +96,4 @@ Library\Bee\artifacts\movedfrom\UnityEngine.VirtualTexturingModule.dll_969800670
 Library\Bee\artifacts\movedfrom\UnityEngine.VRModule.dll_120315918531649597.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_11357396958775323385.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_3776890290252656027.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Burst.Unsafe.dll_13122119458089260169.movedfrom
