@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    
+    /*
     public float speedH = 2f;
     public float speedV = 2f;
 
@@ -19,5 +19,6 @@ public class CameraMove : MonoBehaviour
         transform.eulerAngles = new Vector3(pitch, yaw, 0f);
         
     }
+    */
     
 }
